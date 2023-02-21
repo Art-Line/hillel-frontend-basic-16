@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="https://fom.in.ua/echo" method="post">
+
+        <fieldset>
+            <legend>ваші данні</legend>
+            <p>
+                <label>
+                    Логін
+                    <input type="text" name="login" value="Sergii" autofocus autocomplete="off">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Логін *
+                    <input type="text" name="login2" placeholder="логін" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    логін 3
+                    <input type="text" name="login3" value="qwerty" disabled>
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>ваші данні 2</legend>
+            <p>
+                <label for="pass">Пароль
+                    <input type="password" id="pass" name="pass_me">
+            </p>
+            <p>
+                <label>
+                    E-mail
+                    <input type="email" name="email">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Телефон
+                    <input type="tel" name="phone">
+                </label>
+            </p>
+            <p>
+                <label>
+                    кількість білетів
+                    <input type="number" name="count-ticket" value="10">
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>ваші данні 3</legend>
+            <p>
+                <label>
+                    дата
+                    <input type="date" name="date">
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="tomato" disabled>
+                    Томати
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="potato" checked>
+                    Картопля
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="onion" checked disabled>
+                    Цибуля
+                </label>
+            </p>
+
+
+            <p>
+                <label>
+                    <input type="radio" name="sex" value="man" checked>
+                    чоловіча
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="sex" value="woman">
+                    жіноча
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="sex" value="i-dont-know">
+                    я ще не вирішив
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="sex2" value="man">
+                    чоловіча
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="sex2" value="woman">
+                    жіноча
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="sex2" value="i-dont-know">
+                    я ще не вирішив
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Виберіть місто
+                    <select name="city">
+                        <option value="kiev">Київ</option>
+                        <option value="odesa" selected>Одеса</option>
+                        <option value="lviv">Львів</option>
+                        <option value="charkiv">Харків</option>
+                    </select>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Виберіть місто
+                    <select name="city2" multiple size="6">
+                        <option value="kiev">Київ</option>
+                        <option value="odesa">Одеса</option>
+                        <option value="lviv" selected>Львів</option>
+                        <option value="charkiv">Харків</option>
+                        <option value="kiev2" selected>Київ2</option>
+                        <option value="odesa2">Одеса2</option>
+                        <option value="lviv2">Львів2</option>
+                        <option value="charkiv2">Харків2</option>
+                    </select>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Виберіть місто
+                    <select name="city3">
+                        <optgroup label="Україна">
+                            <option value="kiev">Київ</option>
+                            <option value="odesa">Одеса</option>
+                            <option value="lviv">Львів</option>
+                            <option value="charkiv">Харків</option>
+                        </optgroup>
+                        <optgroup label="Польща">
+                            <option value="wa">Варшава</option>
+                            <option value="ch">Хелм</option>
+                            <option value="rk">Краків</option>
+                            <option value="ps">Пшеми</option>
+                        </optgroup>
+                    </select>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    qwerty
+                    <input type="file" name="file">
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    напишіть повідомлення
+                    <textarea name="mess">текс по дефолту</textarea>
+                </label>
+            </p>
+            <p>
+                <label>
+                    напишіть повідомлення
+                    <textarea name="mess2" placeholder="напишіть повідомлення"></textarea>
+                </label>
+            </p>
+
+        </fieldset>
+
+
+        <button type="submit">відправити форму</button>
+        <!-- <input type="submit" value="віправити"> -->
+
+        <button type="reset">очистити форму</button>
+        <!-- <input type="reset" value="сброс"> -->
+
+    </form>
+
+</body>
+
+</html>
