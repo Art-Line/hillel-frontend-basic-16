@@ -1,0 +1,251 @@
+/* .body {
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 35px;
+}
+
+.about {
+    font-size: 80px;
+}
+
+#comment {
+    font-size: 21px;
+} */
+
+
+
+/* селектор {
+    властивість: значеннявластивості;
+    властивість: значеннявластивості;
+    властивість: значеннявластивості;
+    властивість: значеннявластивості;
+    властивість: значеннявластивості;
+}
+
+селектор {
+    властивість: значеннявластивості;
+}
+
+селектор {
+    властивість: значеннявластивості;
+    властивість: значеннявластивості;
+} */
+
+
+
+/* .title {
+    text-align: center;
+} */
+
+
+.text {
+    font-size: 24px;
+    line-height: 32px;
+    /* font-family: 'Times New Roman', serif; */
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+    /* text-align: justify; */
+    /* letter-spacing: 3px; */
+
+    /* color: goldenrod; */
+    /* color: #ff0000; */
+    /* color: rgb(124, 34, 57); */
+    /* color: rgba(123,55,55,0.5); */
+}
+
+
+
+/* .text-under {
+    text-decoration: underline;
+} */
+
+/* .link {
+    font-size: 32px;
+    text-decoration: none;
+} */
+
+
+
+/* 
+.text2 {
+    font-family: 'Arial', sans-serif;
+    
+}
+
+.text3 {
+    font-family: 'Tahoma', sans-serif;
+}
+
+.bold {
+    font-weight: normal;
+} */
+
+
+
+/* .box30 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: green;
+    padding-left: 20px;
+} */
+
+/* .text30 {
+    color: red;
+} */
+
+/* .link30 {
+    color: red;
+} */
+
+
+
+
+/* p {
+    color: red;
+}
+
+.text40 {
+    font-size: 24px;
+}
+
+#text40 {
+    line-height: 40px;
+} */
+
+
+
+
+/* .certificate p {
+    color: green;
+}
+
+div p {
+
+}
+
+
+
+
+
+.article a {
+    color: red;
+}
+ */
+
+
+
+/* div {
+    color: red;
+}
+
+
+
+.dog {
+    color: green
+} */
+
+/* .gog {}
+
+.gog {} */
+
+
+/*-----------------*/
+
+.link {                 /* 0 1 0 */
+    color: red;
+}
+
+b .link {                /* 0 1 1 */
+    color: green;
+}
+
+.bold .link {            /* 0 2 0 */
+    color: purple;
+}
+
+.bold a {                /* 0 1 1 */
+    color: blueviolet;
+}
+
+a {                      /* 0 0 1 */
+    color: blue;
+}
+
+.main-box .own a {       /* 0 2 1 */
+    color: coral;
+}
+
+.main-box div span .bold a {     /* 0 2 3 */
+    color: greenyellow;
+}
+
+#main .elem .link {             /* 1 2 0 */
+    color: darkturquoise;
+}
+
+#main a {                        /* 1 0 1 */
+    color: brown;
+}
+
+.main-box .own .part .elem .bold a {     /* 0 5 1 */
+    color: mediumpurple;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.article p {}
+
+.article ul {}
+
+.article li {}
+
+.article table {}
+
+
+.article a {
+    color: red;
+}
+
+
+
+
+
+
+
+
+.box-example {
+    color: red;
+}
+
+
+
+
+
+
