@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+}
+
+.body {
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    background: #F9F9F9;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #EEEFF1;
+    padding-top: 71px;
+    padding-bottom: 60px;
+}
+
+.logo {
+    margin-left: 66px;
+}
+
+.menu {
+    padding-top: 51px;
+}
+
+.menu a {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* padding-right: 42px; */
+    margin-right: 42px;
+}
+
+.menu a:hover {
+    color: red;
+}
+
+.design {
+    background: #EEEFF1;
+    padding-bottom: 72px;
+}
+
+.design-title {
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+    padding-bottom: 36px;
+    /* margin: 0 0 36px 0; */
+}
+
+.design-pic {
+    padding-bottom: 36px;
+}
+
+.design-text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-bottom: 70px;
+}
+
+.design-link {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #34547A;
+    padding: 25px 41px;
+}
+
+.about {
+    padding-top: 71px;
+    padding-bottom: 69px;
+}
+
+.about-title {
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 49px;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+
+.blue {
+    padding-top: 71px;
+    padding-bottom: 69px;
+    background: blue;
+}
+
+.blue-title {
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 49px;
+}
+
+.blue p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+
+.bg {
+    background-image: url('../img/bg.jpg');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: red;
+    padding-top: 89px;
+    padding-bottom: 160px;
+}
