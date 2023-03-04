@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* float 
+ib 
+flex
+grid */
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.img-left {
+    float: left;
+}
+.img-right {
+    float: right;
+}
+
+.logo {
+    float: left;
+}
+.phone {
+    float: right;
+}
+
+.item {
+    width: 350px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid black;
+    float: left;
+}
+
+.banner {
+    background-color: green;
+}
+
+.mr-0 {
+    margin-right: 0;
+}
+
