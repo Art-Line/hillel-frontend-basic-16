@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    max-width: 1140px;
+    min-width: 767px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+}
+
+.phone {
+    float: right;
+}
+
+.menu {
+    text-align: center;
+}
+.menu li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 18px;
+}
+
+.goods-list {
+    margin: 0 -15px;
+    font-size: 0;
+}
+
+.good-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    padding: 0 15px 30px;
+}
+
+
+
+
+
+.good-item-inset {
+    font-size: 15px;
+    background-color: orange;
+    padding: 30px;
+}
+
+
+
+.articles {
+    font-size: 0;
+}
+
+.item {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    border: 1px solid black;
+}
+
+
+.list-dragon {
+    font-size: 0;
+    margin: 0 -15px;
+}
+
+.dragon-item {
+    font-size: 16px;
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 15px;
+}
