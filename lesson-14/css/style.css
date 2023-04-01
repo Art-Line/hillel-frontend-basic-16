@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+.container {
+    max-width: 1190px;
+    min-width: 767px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ------------ */
+.btn {
+    cursor: pointer;
+    font-family: inherit;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.btn_sm {
+    font-size: 16px;
+    font-weight: normal;
+    padding: 11px 17px;
+    border-radius: 20px;
+}
+
+.btn_md {
+    font-size: 16px;
+    font-weight: normal;
+    padding: 16px 27px;
+    border-radius: 25px;
+}
+
+.btn_blue {
+    font-size: 16px;
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #3751FF;
+}
+
+.btn_white {
+    font-size: 16px;
+    font-weight: normal;
+    color: #455880;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.btn_lg {
+    padding: 13px 27px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 28px;
+}
+
+.btn_email {
+    position: relative;
+    padding-left: 72px;
+}
+
+.btn_email::before {
+    content: '';
+    background-image: url('../img/mail.svg');
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    left: 28px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* ------------ */
+.h1-title {
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 59px;    
+    text-align: center;
+    color: #1E266D;
+}
+.h2-title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #1E266D;
+}
+
+/* ------------ */
+.header {
+    display: flex;
+    align-items: center;
+    padding-top: 22px;
+    padding-bottom: 18px;
+}
+
+.logo img {
+    display: block;
+}
+
+.menu {
+    margin-right: auto;
+    margin-left: 85px;
+}
+
+.menu-list {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+}
+
+.menu-list > li {
+    margin-right: 40px;
+}
+
+.menu-list > li > a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #1E266D;
+    text-decoration: none;
+}
+
+.header__phone {
+    font-size: 16px;
+    line-height: 24px;
+    color: #1E266D;
+    text-decoration: none;
+}
+
+.header__contact {
+    margin-left: 34px;
+}
+
+/* ------------ */
+
+.intro {
+    background: linear-gradient(180deg, rgba(242, 249, 255, 0.12) 0%, #F2F9FF 100%);
+    padding-top: 144px;
+}
+
+.intro__title {
+    margin-bottom: 27px;
+    max-width: 590px;
+    margin: 0 auto;
+}
+
+.intro__description {
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #455880;
+    margin-bottom: 29px;
+}
+
+.intro__buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.intro__buttons button:first-child {
+    margin-right: 22px;
+}
+
+.intro__pic {
+    text-align: center;
+}
+
+/*---------------*/
+
+.trusted {
+    padding-top: 186px;
+    padding-bottom: 150px;
+    margin-top: -134px;
+    background-color: #ffffff;
+}
+
+.trusted__title {
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: rgba(69, 88, 128, 0.5);
+    margin-bottom: 50px;
+}
+
+.trusted__logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -15px;
+}
+
+.trusted__item {
+    padding: 0 15px;
+}
+
+/*------ */
+
+.able {
+
+}
+
+.able__title {
+    max-width: 590px;
+    margin: 0 auto 50px;
+}
+
+.able__row {
+    display: flex;
+    margin: 0 -15px;
+    justify-content: space-between;
+}
+
+.able__col {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.able-achievements {
+    max-width: 405px;
+    padding: 84px 15px 0;
+}
+
+.able-achievements__item {
+    padding-left: 105px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    border-bottom: 1px solid rgba(69, 88, 128, 0.2);
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.able-achievements__item h3 {
+    font-size: 22px;
+    line-height: 28px;
+    color: #1E266D;
+    padding-bottom: 25px;
+}
+
+.able-achievements__item p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #455880;
+}
+
+.able-achievements__item_01 {
+    background-image: url('../img/able-01.svg');
+}
+.able-achievements__item_02 {
+    background-image: url('../img/able-02.svg');
+}
+.able-achievements__item_03 {
+    background-image: url('../img/able-03.svg');
+}
