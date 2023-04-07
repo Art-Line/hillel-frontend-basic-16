@@ -1,0 +1,13 @@
+.comment {
+    display: flex;
+    &__item {
+        padding: 10px;
+        font-size: 24px;
+        &-inset {
+            padding: 50px;
+        }
+    }
+    &__link {
+        text-decoration: none;
+    }
+}
