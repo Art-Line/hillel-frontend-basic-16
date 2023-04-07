@@ -1,0 +1,7 @@
+@import url('head.css');
+@import url('foot.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}

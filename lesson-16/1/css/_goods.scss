@@ -1,0 +1,29 @@
+.goods {
+    display: flex;
+    margin: 0 -15px;
+    &__item {
+        padding: 0 15px;
+        &_red {
+            color: red;
+        }
+    }
+    &__title {
+        font-size: 30px;
+    }
+    &__text {
+        font-size: 14px;
+        &-head {
+            padding: 2px;
+        }
+        p {
+            padding: 5px;
+        }
+    }
+    &__link {
+        color: red;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

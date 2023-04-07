@@ -1,0 +1,12 @@
+.list {
+    display: flex;
+    li {
+        padding: 40px;
+    }
+    a {
+        font-size: 3px;
+        &.active {
+            color: red;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+.about {
+  font-size: 100px;
+  background-color: #00ee00;
+}
+.about__text {
+  font-size: 20px;
+}
+
+.goods {
+  display: flex;
+  margin: 0 -15px;
+}
+.goods__item {
+  padding: 0 15px;
+}
+.goods__item_red {
+  color: red;
+}
+.goods__title {
+  font-size: 30px;
+}
+.goods__text {
+  font-size: 14px;
+}
+.goods__text-head {
+  padding: 2px;
+}
+.goods__text p {
+  padding: 5px;
+}
+.goods__link {
+  color: red;
+  text-decoration: none;
+}
+.goods__link:hover {
+  text-decoration: underline;
+}
+
+.list {
+  display: flex;
+}
+.list li {
+  padding: 40px;
+}
+.list a {
+  font-size: 3px;
+}
+.list a.active {
+  color: red;
+}
+
+.article {
+  display: flex;
+  padding: 30px;
+}
+.article p {
+  font-size: 34px;
+}
+.article .link {
+  font-size: 23px;
+}
+
+.footer {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */
