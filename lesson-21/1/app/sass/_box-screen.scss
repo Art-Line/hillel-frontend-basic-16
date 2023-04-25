@@ -1,0 +1,38 @@
+.box-screen {
+    background-image: url('../img/sea__mobile.jpg');
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+
+@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    .box-screen {
+        background-image: url('../img/sea__mobile@2x.jpg');
+    }
+}
+
+@media (min-width: 768px) {
+    .box-screen {
+        background-image: url('../img/sea__tablet.jpg');
+        width: 300px;
+        height: 300px;
+    }
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+        .box-screen {
+            background-image: url('../img/sea__tablet@2x.jpg');
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .box-screen {
+        background-image: url('../img/sea.jpg');
+        width: 400px;
+        height: 400px;
+    }
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+        .box-screen {
+            background-image: url('../img/sea@2x.jpg');
+        }
+    }
+}

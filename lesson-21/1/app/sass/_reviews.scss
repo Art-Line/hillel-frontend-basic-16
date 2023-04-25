@@ -1,0 +1,37 @@
+.reviews {
+    &__title {}
+    &__slider {
+
+    }
+    &__item {
+        border: 1px solid black;
+    }
+    &__dots {
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        list-style: none;
+        li {
+            padding: 0 7px;
+            &.slick-active {
+                button {
+                    background-color: rgba(36, 163, 255, 1);
+                }
+            }
+        }
+        button {
+            font-size: 0;
+            cursor: pointer;
+            width: 16px;
+            height: 16px;
+            background-color: rgba(36, 163, 255, 0.2);
+            border: none;
+            border-radius: 50%;
+            transition-duration: 200ms;
+            transition-property: background-color;
+            &:hover {
+                background-color: rgba(36, 163, 255, 0.6);
+            }
+        }
+    }
+}

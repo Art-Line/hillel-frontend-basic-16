@@ -279,3 +279,13 @@ vmin */
     /* background-size: cover; */
     background-size: contain;
 }
+
+
+.v {
+    background: #1e5799;
+background: -moz-linear-gradient(top,  #1e5799 0%, #7db9e8 100%);
+background: -webkit-linear-gradient(top,  #1e5799 0%,#7db9e8 100%);
+background: linear-gradient(to bottom,  #1e5799 0%,#7db9e8 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );
+
+}
